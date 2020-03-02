@@ -1,0 +1,273 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear:both;
+}
+
+/* Main Styling */
+body{
+    font-family: 'Segoe UI', 'Tahoma', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background-color: #333;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+#navbar{
+    background: #333;
+    color:#fff;
+    overflow: auto;
+    position:fixed;
+    width: 100%;
+}
+
+#navbar a{
+    color:#fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top:20px;
+}
+
+#navbar ul{
+    float:right;
+}
+
+#navbar ul li{
+    list-style:none;
+    float: left;
+}
+
+#navbar ul li a{
+    display: inline-block;
+    padding: 20px;
+}
+
+/* utility tab */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.btn{
+    display: inline-block;
+    font:20px;
+    color: #fff;
+    background: #333;
+    padding:13px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #f7c08f;
+    color: #333;
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+.text-primary{
+    color: #f7c08f;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+/* Psuedo selector example */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color:#f7c08f;
+}
+
+/* Showcase */
+#showcase{
+    background-image: url('../img 2/showcase.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#showcase .showcase-content{
+    color:#fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.7em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home info */
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img 2/photo-1.jpg');
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    overflow: hidden;
+}
+
+#home-info .info-content a{
+    padding-bottom: 10px;
+}
+
+p{
+    font-size:20px;
+}
+
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
+.bg-light{
+    background: #864812;
+    color:#fff;
+}
+
+.bg-primary{
+    background: #f7c08f;
+    color:#333;
+}
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+/* about page */
+#showcase2{
+    background-image: url('../img 2/photo-1.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showcase2-title{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    line-height: 1.7em;
+}
+
+.about-content{
+    height: 400px;
+}
+
+.container2{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.au-history{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+
+.lead2{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    float: left;
+}
+
+#old-version{
+    /* background: url('../img 2/photo-1.jpg'); */
+    background-repeat: no-repeat;
+    float: right;
+    filter: grayscale(100%);
+    width: 50%;
+    height: 20%;
+    overflow-x: hidden;
+}
+.hotel-reviews{
+    padding-top: 20px;
+    background-color: #864812;
+    padding-bottom: 70px;
+}
+.reviews{
+    text-align: center;
+    background:#333;
+    color:#fff;
+    font-size: 30px;
+}
+
+.image-1{
+    /* background: url('../img 2/person-1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 15%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.image-2{
+    /* background-image: url('../img 2/person-2.jpg'); */
+    background-repeat: no-repeat;
+    float: left;
+    background-size: cover;
+    width: 15%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.bg{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.review-1, .review-2{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 75%;
+}
+
+.name {
+    margin-bottom: 20px;
+}
